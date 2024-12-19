@@ -10,9 +10,22 @@
 		DBEC0FD92D12C06000E7C0C4 /* LastUpdateScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastUpdateScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DBEC0FED2D12C0A600E7C0C4 /* Exceptions for "LastUpdateScan" folder in "LastUpdateScan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DBEC0FD82D12C06000E7C0C4 /* LastUpdateScan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DBEC0FDB2D12C06000E7C0C4 /* LastUpdateScan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DBEC0FED2D12C0A600E7C0C4 /* Exceptions for "LastUpdateScan" folder in "LastUpdateScan" target */,
+			);
 			path = LastUpdateScan;
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,9 @@
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LastUpdateScan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "نحتاج إلى الوصول إلى الكاميرا لاستخدام ميزة المسح";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "نحتاج إلى الوصول إلى مكتبة الصور لاختيار الصور وتحليل النصوص";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +300,9 @@
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LastUpdateScan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "نحتاج إلى الوصول إلى الكاميرا لاستخدام ميزة المسح";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "نحتاج إلى الوصول إلى مكتبة الصور لاختيار الصور وتحليل النصوص";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

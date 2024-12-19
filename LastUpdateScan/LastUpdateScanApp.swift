@@ -12,6 +12,8 @@ struct LastUpdateScanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [ScanEntity.self])
+
         }
     }
 }
