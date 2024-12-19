@@ -193,6 +193,7 @@ struct EditScanPage: View {
             try modelContext.save()
         } catch {
             print("Failed to save changes: \(error)")
+            
         }
     }
 }
