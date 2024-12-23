@@ -641,7 +641,10 @@ struct EditScanPage: View {
             }) {
                 HStack {
                     Spacer()
-                    Image(systemName: isSpeaking ? "speaker.slash.fill" : "speaker.wave.3.fill") // تغيير الأيقونة حسب حالة الصوت
+                    Image(systemName: isSpeaking ? "pause.circle" : "play.circle")
+                        .font(.system(size: 25))
+                        .foregroundColor(.db)// تغيير الأيقونة حسب حالة الصوت
+                    
                 }
                 .padding()
                 //.background(Color.)
