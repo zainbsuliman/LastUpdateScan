@@ -4,12 +4,8 @@
 //
 //  Created by Zainab Alatwi  on 17/06/1446 AH.
 //
-import SwiftUI
-import Combine
-import Foundation
+
 import SwiftData
-
-
 import SwiftUI
 
 struct SettingsView: View {

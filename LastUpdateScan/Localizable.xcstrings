@@ -1,0 +1,112 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%lld" : {
+
+    },
+    "Background Color" : {
+
+    },
+    "Font Size" : {
+
+    },
+    "Key" : {
+      "comment" : "لايوجد ",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No scans yet"
+          }
+        }
+      }
+    },
+    "Key 1" : {
+      "comment" : "امسح هنا ",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح هنا !"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan Here !"
+          }
+        }
+      }
+    },
+    "Key 2" : {
+      "comment" : " لا يوجد هنا ",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No scans yet"
+          }
+        }
+      }
+    },
+    "Key 3" : {
+      "comment" : " اسمح هنا ",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح هنا "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scan Here !"
+          }
+        }
+      }
+    },
+    "No scans yet" : {
+      "comment" : "لايوجد ",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد  مسح  ضوئي حتى الان "
+          }
+        }
+      }
+    },
+    "Scan Here !" : {
+      "comment" : " امسح هنا ",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح هنا  !"
+          }
+        }
+      }
+    },
+    "Select Background Color" : {
+
+    },
+    "Settings" : {
+
+    }
+  },
+  "version" : "1.0"
+}
