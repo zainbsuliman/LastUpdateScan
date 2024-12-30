@@ -4,6 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>OpenDyslexic-Regular.otf</string>
 		<string></string>
 		<string>Maqroo-Regular.otf</string>
 	</array>

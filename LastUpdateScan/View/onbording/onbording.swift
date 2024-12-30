@@ -97,9 +97,6 @@ struct OnboardingView: View {
 }
 
 // ViewModel لتخزين البيانات المتعلقة بالشرائح
-
-
-
 #Preview {
     OnboardingView()
 }

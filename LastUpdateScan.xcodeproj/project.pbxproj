@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		DBEC0FD92D12C06000E7C0C4 /* LastUpdateScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LastUpdateScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEC0FD92D12C06000E7C0C4 /* Ruya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,7 +53,7 @@
 		DBEC0FDA2D12C06000E7C0C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DBEC0FD92D12C06000E7C0C4 /* LastUpdateScan.app */,
+				DBEC0FD92D12C06000E7C0C4 /* Ruya.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			packageProductDependencies = (
 			);
 			productName = LastUpdateScan;
-			productReference = DBEC0FD92D12C06000E7C0C4 /* LastUpdateScan.app */;
+			productReference = DBEC0FD92D12C06000E7C0C4 /* Ruya.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -266,12 +266,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"LastUpdateScan/Preview Content\"";
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LastUpdateScan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "نحتاج إلى الوصول إلى الكاميرا لاستخدام ميزة المسح";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "نحتاج إلى الوصول إلى مكتبة الصور لاختيار الصور وتحليل النصوص";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -285,7 +286,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zainab.LastUpdateScan;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ruya;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +299,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"LastUpdateScan/Preview Content\"";
 				DEVELOPMENT_TEAM = CPSJQMMQ8M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LastUpdateScan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "نحتاج إلى الوصول إلى الكاميرا لاستخدام ميزة المسح";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "نحتاج إلى الوصول إلى مكتبة الصور لاختيار الصور وتحليل النصوص";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -317,7 +319,7 @@
 				);
 				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zainab.LastUpdateScan;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Ruya;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -21,7 +21,7 @@ class OnboardingViewModel: ObservableObject {
     let slides = [
         Slide(image: "document.viewfinder", title: "مسح النصوص بسهولة", description: "استخدم الكاميرا لمسح النصوص."),
         Slide(image: "paintpalette", title: "تخصيص ألوان الخلفية", description: "قم بتغيير ألوان الخلفية بسهولة باستخدام لوحة ألوان وتدرجات مناسبة."),
-        Slide(image: "speaker.wave.1", title: "القراءة الصوتية", description: "حول النصوص إلى صوت واضح ومريح.")
+        Slide(image: "speaker.wave.1", title: "القراءة الصوتية", description: "حول النصوص إلى صوت واضح ومريح يناسبك بسهولة من خلال إعداداات جهازك.")
     ]
 }
 

@@ -20,10 +20,37 @@
 
 
 import SwiftUI
+import UIKit
 @main
 struct LastUpdateScanApp: App {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     @State private var isActive = false // لحالة SplashScreen
+
+    
+    init() {
+        let appear = UINavigationBarAppearance()
+        
+        let atters: [NSAttributedString.Key: Any] = [
+            .font: UIFont(name: "Maqroo-Regular", size: 35)!
+        ]
+        
+        appear.largeTitleTextAttributes = atters
+        appear.titleTextAttributes = atters
+        
+        // تعيين الخلفية إلى شفافة
+        appear.backgroundColor = .white
+        appear.shadowColor = .clear
+        appear.shadowImage = UIImage()
+        
+        
+        
+        // تعيين المظاهر لظهور الشريط بشكل صحيح
+        UINavigationBar.appearance().standardAppearance = appear
+        UINavigationBar.appearance().compactAppearance = appear
+        UINavigationBar.appearance().scrollEdgeAppearance = appear
+    }
+    
+    
     
     var body: some Scene {
         WindowGroup {

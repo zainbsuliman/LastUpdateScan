@@ -7,58 +7,8 @@
     " مسح ضوئي" : {
 
     },
-    "%lld" : {
+    "Custom" : {
 
-    },
-    "Background Color" : {
-
-    },
-    "Change the text colors to improve readability." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "قم بتغيير ألوان النصوص لتحسين القراءة."
-          }
-        }
-      }
-    },
-    "Convert texts into clear and comfortable speech." : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "حول النصوص إلى صوت واضح ومريح."
-          }
-        }
-      }
-    },
-    "Customize Texts" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "تخصيص النصوص"
-          }
-        }
-      }
-    },
-    "Font Size" : {
-
-    },
-    "History" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "السجل "
-          }
-        }
-      }
     },
     "Key" : {
       "comment" : "لايوجد ",
@@ -108,92 +58,14 @@
         }
       }
     },
-    "Key 3" : {
-      "comment" : " اسمح هنا ",
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "السجل"
-          }
-        }
-      }
-    },
     "Key 4" : {
       "extractionState" : "manual"
     },
     "Key 5" : {
       "extractionState" : "manual"
     },
-    "key7" : {
-      "extractionState" : "manual",
+    "أبدأ" : {
       "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "مسح النصوص بسهولة"
-          }
-        }
-      }
-    },
-    "No scans yet" : {
-      "comment" : "لايوجد ",
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "لا يوجد  مسح  ضوئي حتى الان "
-          }
-        }
-      }
-    },
-    "Scan Here !" : {
-      "comment" : " امسح هنا ",
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "امسح هنا  !"
-          }
-        }
-      },
-      "shouldTranslate" : false
-    },
-    "Select Background Color" : {
-
-    },
-    "Settings" : {
-
-    },
-    "Skip" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "تخطي"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Skip"
-          }
-        }
-      }
-    },
-    "Start" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "ابدأ"
-          }
-        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -202,42 +74,45 @@
         }
       }
     },
-    "Text-to-Speech" : {
-      "extractionState" : "manual",
+    "الصفحة الرئيسية" : {
       "localizations" : {
-        "ar" : {
+        "en" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "القراءة الصوتية"
+            "state" : "translated",
+            "value" : "Home Page "
           }
         }
       }
-    },
-    "Use the camera to scan texts." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "استخدم الكاميرا لمسح النصوص."
-          }
-        }
-      }
-    },
-    "أبدأ" : {
-
-    },
-    "السجل " : {
-
     },
     "تخطي " : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        }
+      }
     },
     "رفع صورة" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload"
+          }
+        }
+      }
     },
     "لايوجد مسح ضوئي حتى الان " : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No Scan yet "
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

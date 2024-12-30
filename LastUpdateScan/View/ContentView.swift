@@ -4,7 +4,6 @@ import SwiftUI
 import SwiftData
 import VisionKit
 import AVFoundation
-
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \ScanEntity.date, order: .reverse) private var scans: [ScanEntity]
@@ -21,7 +20,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack {
+                HStack{
                     Button(action: {
                         self.showScannerSheet = true // عرض الكاميرا
                         self.isReturningToScanList = false // التأكد من أننا لا نعود للسجل
@@ -52,8 +51,7 @@ struct ContentView: View {
                         self.showImagePicker = true
                     }, label: {
                         VStack {
-                            
-                            
+                        
                             Image(systemName: "photo.on.rectangle.angled")
                                 .font(.title)
                                 .foregroundColor(.db)
@@ -73,8 +71,9 @@ struct ContentView: View {
                             }
                         }
                     }
-                }
-                .padding()
+                    
+                }.padding(50)
+                    .padding(.top, -10)
                 
                 if scans.isEmpty {
                     Text("لايوجد مسح ضوئي حتى الان ")
@@ -91,8 +90,8 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("السجل ")
-            .font(.custom("Maqroo-Regular", size: 20))
+            .navigationTitle("الصفحة الرئيسية")
+            
             .onAppear {
                 // لا تفتح الكاميرا إذا كان المستخدم قد عاد إلى السجل
                 if !isReturningToScanList {
@@ -156,14 +155,12 @@ struct ContentView: View {
         // speakText(text) // قراءة النص
     }
     
-    private func speakText(_ text: String) {
-        let speechUtterance = AVSpeechUtterance(string: text)
-        speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // تعيين اللغة العربية
-        speechSynthesizer.speak(speechUtterance) // تحويل النص إلى كلام
-    }
+//    private func speakText(_ text: String) {
+//        let speechUtterance = AVSpeechUtterance(string: text)
+//        speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // تعيين اللغة العربية
+//        speechSynthesizer.speak(speechUtterance) // تحويل النص إلى كلام
+//    }
 }
-
-
 #Preview {
     ContentView()
 }
