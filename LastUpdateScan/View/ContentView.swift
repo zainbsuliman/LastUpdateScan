@@ -155,11 +155,6 @@ struct ContentView: View {
         // speakText(text) // قراءة النص
     }
     
-//    private func speakText(_ text: String) {
-//        let speechUtterance = AVSpeechUtterance(string: text)
-//        speechUtterance.voice = AVSpeechSynthesisVoice(language: "ar-SA") // تعيين اللغة العربية
-//        speechSynthesizer.speak(speechUtterance) // تحويل النص إلى كلام
-//    }
 }
 #Preview {
     ContentView()

@@ -38,20 +38,20 @@ struct OnboardingView: View {
                 
                 TabView(selection: $viewModel.currentPage) {
                     ForEach(viewModel.slides.indices, id: \.self) { index in
-                        VStack(spacing: 10) {
+                        VStack(spacing: 25) {
                             Image(systemName: viewModel.slides[index].image)
-                                .font(.system(size: 60, weight: .regular))
+                                .font(.system(size: 55, weight: .regular))
                                 .foregroundColor(Color.db)
-                                .padding(.top, 50)
+                                .padding(70)
                             
                             Text(viewModel.slides[index].title)
                                 .font(Font.custom("Maqroo-Regular", size: 33))
                                 .foregroundColor(.dg)
-                                .padding(.bottom, 5)
-                                .padding(.top, 73)
+                               // .padding(.bottom, 5)
+                                
                             
                             Text(viewModel.slides[index].description)
-                                .font(Font.custom("Maqroo-Regular", size: 22))
+                                .font(Font.custom("Maqroo-Regular", size: 20))
                                 .foregroundColor(.dg)
                                 .multilineTextAlignment(.center)
                                 .padding(.horizontal, 60)
@@ -61,7 +61,6 @@ struct OnboardingView: View {
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             }
-            
             Spacer()
             
             // النقاط السفلية أو زر "ابدأ"
@@ -70,7 +69,7 @@ struct OnboardingView: View {
                     Button(action: {
                         hasSeenOnboarding = true // تحديث الحالة عند الضغط على "ابدأ"
                     }) {
-                        Text("أبدأ")
+                        Text("ابدأ")
                             .font(Font.custom("Maqroo-Regular", size: 28))
                             .foregroundColor(.white)
                             .padding()

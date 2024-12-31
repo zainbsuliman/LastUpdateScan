@@ -16,14 +16,8 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "لا يوجد "
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No scans yet"
           }
         }
       }
@@ -34,29 +28,15 @@
       "localizations" : {
         "ar" : {
           "stringUnit" : {
-            "state" : "translated",
+            "state" : "needs_review",
             "value" : "امسح هنا !"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Scan Here !"
           }
         }
       }
     },
     "Key 2" : {
       "comment" : " لا يوجد هنا ",
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No scans yet"
-          }
-        }
-      }
+      "extractionState" : "manual"
     },
     "Key 4" : {
       "extractionState" : "manual"
@@ -64,55 +44,20 @@
     "Key 5" : {
       "extractionState" : "manual"
     },
-    "أبدأ" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start"
-          }
-        }
-      }
+    "ابدأ" : {
+
     },
     "الصفحة الرئيسية" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Home Page "
-          }
-        }
-      }
+
     },
     "تخطي " : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Skip"
-          }
-        }
-      }
+
     },
     "رفع صورة" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Upload"
-          }
-        }
-      }
+
     },
     "لايوجد مسح ضوئي حتى الان " : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Scan yet "
-          }
-        }
-      }
+
     }
   },
   "version" : "1.0"
